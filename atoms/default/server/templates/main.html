@@ -1,1 +1,74 @@
-<div class="interactive-wrapper">HTML</div>
+<div class="interactive-wrapper multi">
+    <div id="outer-wrapper" class="showcase">
+			<div class="row">
+
+			<div class='figureTitle' id="chartTitle">Daylight hours in Australian capital cities</div>
+			<div class='subTitle' id="subTitle">This shows maximum possible daylight hours based on estimated sun position, and does not take into account cloud cover</div>
+			
+			<div class="row">
+				<div class="controls col50">
+
+					<div class="selectContainer">
+						<div class="selectLabel">
+							Location
+						</div>
+						
+						<select id="locationSelect">
+							<option selected value="Sydney">Sydney</option>
+							<option value="Perth">Perth</option>
+							<option value="Melbourne">Melbourne</option>
+							<option value="Adelaide">Adelaide</option>
+							<option value="Brisbane">Brisbane</option>
+							<option value="Hobart">Hobart</option>
+							<option value="Canberra">Canberra</option>
+							<option value="Darwin">Darwin</option>
+						</select>		
+					</div>
+
+					<div class="selectContainer">
+						<div class="selectLabel">
+							Daylight savings
+						</div>
+						
+						<select id="savingsSelect">
+							<option selected value="normal">Normal</option>
+							<option value="off">None</option>
+							<option value="on">Everywhere</option>
+						</select>		
+					</div>
+
+				</div>
+
+				<div class='notes col50' id='chartKey'>
+					<div class="keyDiv">
+						<span class="keyCircle" style="background-color: #fc9803;"></span>
+						<span class="keyText">Daytime</span>
+					</div>	
+					<div class="keyDiv">
+						<span class="keyCircle" style="background-color: #abd9e9;"></span>
+						<span class="keyText">Twilight</span>
+					</div>	
+					<div class="keyDiv">
+						<span class="keyCircle" style="background-color: #4575b4;"></span>
+						<span class="keyText">Nighttime</span>
+					</div>	
+				</div>
+
+
+			</div>	
+
+			
+			</div>
+			<div class="row borderBottom chartSans" id="graphicContainer">	
+				<!-- <div id="counter">1900</div>	 -->
+			</div>
+			<div class='footer offset'>
+				<div id="footerAnnotations">
+
+				</div>	
+				
+				<span id="footnote"></span> Guardian graphic <span id="sourceText"></span>
+			</div>	
+			
+	</div>
+</div>
